@@ -1,0 +1,56 @@
+{
+  "name": "tutorage",
+  "version": "0.0.1",
+  "description": "Tutor Finder App",
+  "productName": "Tutor Finder App",
+  "author": "Ahmad Abdelaziz",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@fullcalendar/daygrid": "^5.5.0",
+    "@fullcalendar/google-calendar": "^5.5.0",
+    "@fullcalendar/interaction": "^5.5.0",
+    "@fullcalendar/list": "^5.5.0",
+    "@fullcalendar/rrule": "^5.5.1",
+    "@fullcalendar/timegrid": "^5.5.1",
+    "@fullcalendar/vue": "^5.5.0",
+    "@quasar/cli": "^1.1.3",
+    "@quasar/extras": "^1.0.0",
+    "aos": "^2.3.4",
+    "core-js": "^3.6.5",
+    "firebase": "^8.2.3",
+    "googleapis": "^67.0.0",
+    "quasar": "^1.0.0",
+    "quasar-cli": "^0.17.26",
+    "vue-carousel": "^0.18.0",
+    "vue-gapi": "^1.1.0",
+    "vueperslides": "^3.2.0",
+    "vuex-persistedstate": "^4.0.0-beta.3"
+  },
+  "devDependencies": {
+    "@quasar/app": "^2.0.0",
+    "devtron": "^1.4.0",
+    "electron": "^9.4.4",
+    "electron-debug": "^3.2.0",
+    "electron-devtools-installer": "^3.1.1",
+    "strip-ansi": "^3.0.1"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
